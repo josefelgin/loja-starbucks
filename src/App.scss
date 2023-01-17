@@ -1,0 +1,47 @@
+.Header{
+  background-color: red;
+  padding: 1em;
+}
+
+.Header__logo{
+  max-width: 100%;
+}
+
+.Menu__nav {
+
+  li{
+    display: inline-block;
+    margin: 0 1em;
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.Menu__search input{
+  padding: 0.5em;
+  border: 0;
+  border-radius: 0.25em;
+  width: 100%;
+}
+
+.Menu__mobile {
+  color: white;
+}
+
+.Page {
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+
+.Footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
